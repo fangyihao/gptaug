@@ -22,8 +22,7 @@ evaluation of multiple benchmarks reveals that
 our method outperforms existing techniques
 and significantly enhances open intent detection
 capabilities. Our findings underscore the
-potential of large language models like Chat-
-GPT for data augmentation in natural language
+potential of large language models like ChatGPT for data augmentation in natural language
 understanding tasks.
 
 ## Reference
