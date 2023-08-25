@@ -25,3 +25,16 @@ capabilities. Our findings underscore the
 potential of large language models like Chat-
 GPT for data augmentation in natural language
 understanding tasks.
+
+## Reference
+If you use GPTAUG in a research paper, please cite our work as follows:
+```
+@inproceedings{fang-etal-2023-gptaug,
+    title = "ChatGPT as Data Augmentation for Compositional Generalization: A Case Study in Open Intent Detection",
+    author = "Yihao Fang, Xianzhi Li, Stephen W. Thomas and Xiaodan Zhu",
+    booktitle = "Proceedings of the Joint Workshop of the 5th Financial Technology and Natural Language Processing (FinNLP) and 2nd Multimodal AI For Financial Forecasting (Muffin)",
+    pages = "13--33",
+    year = "2023",
+    url = "https://drive.google.com/file/d/1ozP9nkDJD0RULbXNXPXca8o-mnhfSkBg/view",
+}
+```
