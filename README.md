@@ -1,4 +1,4 @@
-# GPTAug
+# GPTAUG
 Open intent detection, a crucial aspect of natural
 language understanding, involves the identification
 of previously unseen intents in usergenerated
