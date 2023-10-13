@@ -1,4 +1,4 @@
-# GPTAUG
+## Introduction
 Open intent detection, a crucial aspect of natural
 language understanding, involves the identification
 of previously unseen intents in usergenerated
@@ -24,6 +24,25 @@ and significantly enhances open intent detection
 capabilities. Our findings underscore the
 potential of large language models like ChatGPT for data augmentation in natural language
 understanding tasks.
+
+## Experiments
+To effectively integrate paraphrases into the training process of BERT with
+ADB (DA-ADB), three different strategies are evaluated. The first strategy involves synthesizing
+10 paraphrases for each instance in the dataset (GPTAUG-F10), while the second strategy generates 4 paraphrases for each instance (GPTAUG-F4). The third strategy, on the other hand, focuses
+on instances that the model predicts incorrectly at
+the current iteration and synthesizes 10 paraphrases
+for each of these instances (GPTAUG-WP10).
+
+```
+./open_intent_detection/examples/run_ADB.sh
+./open_intent_detection/examples/run_DA-ADB.sh
+./open_intent_detection/examples/run_ADB-BOOST-F-10.sh
+./open_intent_detection/examples/run_ADB-BOOST-F-4.sh
+./open_intent_detection/examples/run_ADB-BOOST-WP-10.sh
+./open_intent_detection/examples/run_DA-ADB-BOOST-F-10.sh
+./open_intent_detection/examples/run_DA-ADB-BOOST-F-4.sh
+./open_intent_detection/examples/run_DA-ADB-BOOST-WP-10.sh
+```
 
 ## Reference
 If you use GPTAUG in a research paper, please cite our work as follows:
