@@ -44,8 +44,9 @@ for each of these instances (GPTAUG-WP10).
 ./open_intent_detection/examples/run_DA-ADB-BOOST-WP-10.sh
 ```
 
-## Reference
+## Citation
 If you use GPTAUG in a research paper, please cite our work as follows:
+
 ```
 @inproceedings{fang-etal-2023-chatgpt,
     title = "{C}hat{GPT} as Data Augmentation for Compositional Generalization: A Case Study in Open Intent Detection",
