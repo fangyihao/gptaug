@@ -28,12 +28,16 @@ understanding tasks.
 ## Reference
 If you use GPTAUG in a research paper, please cite our work as follows:
 ```
-@inproceedings{fang-etal-2023-gptaug,
-    title = "ChatGPT as Data Augmentation for Compositional Generalization: A Case Study in Open Intent Detection",
-    author = "Yihao Fang, Xianzhi Li, Stephen W. Thomas and Xiaodan Zhu",
-    booktitle = "Proceedings of the Joint Workshop of the 5th Financial Technology and Natural Language Processing (FinNLP) and 2nd Multimodal AI For Financial Forecasting (Muffin)",
-    pages = "13--33",
+@inproceedings{fang-etal-2023-chatgpt,
+    title = "{C}hat{GPT} as Data Augmentation for Compositional Generalization: A Case Study in Open Intent Detection",
+    author = "Fang, Yihao  and
+      Li, Xianzhi  and
+      Thomas, Stephen  and
+      Zhu, Xiaodan",
+    booktitle = "Proceedings of the Fifth Workshop on Financial Technology and Natural Language Processing and the Second Multimodal AI For Financial Forecasting",
     year = "2023",
-    url = "https://drive.google.com/file/d/1ozP9nkDJD0RULbXNXPXca8o-mnhfSkBg/view",
+    address = "Macao",
+    url = "https://aclanthology.org/2023.finnlp-1.2",
+    pages = "13--33",
 }
 ```
