@@ -1,3 +1,5 @@
+# ChatGPT as Data Augmentation for Compositional Generalization: A Case Study in Open Intent Detection
+
 ## Introduction
 Open intent detection, a crucial aspect of natural
 language understanding, involves the identification
@@ -45,7 +47,7 @@ for each of these instances (GPTAUG-WP10).
 ```
 
 ## Citation
-If you use GPTAUG in a research paper, please cite our work as follows:
+If you use our source code in a research paper, please cite our work as follows:
 
 ```
 @inproceedings{fang-etal-2023-chatgpt,
